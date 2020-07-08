@@ -2,52 +2,47 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
+
 }
 body
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     overflow: hidden;
-}
-.main
-{
     width: 100%;
     height: 100vh;
     position: relative;
     overflow: hidden;
     background: #4d055a;
 }
-nav
-{
-    width: 80%;
-    position: sticky;
-    margin: 20px auto;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-}
 .nav-list
 {
-    flex:1;
-    text-align: right;
+    margin-left: auto;
+    align-items: right;
+}
+.nav-list ul
+{
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+    display: flex;
 }
 .nav-list ul li
 {
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
 }
 .nav-list ul li a
 {
-    color:#fff;
+    margin: 5px;
+    color: #fff;
+    font-size: 1.5em;
     text-decoration: none;
+    letter-spacing: 2px;
 }
-.lista ul
+.lista
 {
+    justify-content: '';
     align-items: center;
-    top: 0;
-    left: 0;
 }
