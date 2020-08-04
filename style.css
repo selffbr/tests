@@ -37,12 +37,16 @@ body
 {
     margin: 5px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-decoration: none;
     letter-spacing: 2px;
 }
 .lista
 {
-    justify-content: '';
-    align-items: center;
+    position: relative;    
+}
+.lista ul
+{
+    text-align: center;
+    position: relative;
 }
