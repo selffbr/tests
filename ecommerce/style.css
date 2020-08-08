@@ -43,6 +43,8 @@ p
 {
     max-width: 1300px;
     margin: auto;
+    padding-left:25px;
+    padding-right:25px;
 }
 .row
 {
